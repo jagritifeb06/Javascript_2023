@@ -154,6 +154,8 @@
 // let filla2 = arr.fill(0);
 // console.log("filla is:", filla2); // [0, 0, 0, 0, 0, 0]
 
+/* The every() method tests whether all elements in the array pass the test implemented by the provided function.It returns a Boolean value.*/
+
 // const isBelowThreshold = (curVal) => curVal < 40;
 // const arr1 = [10, 20, 30, 40, 50, 60];
 // console.log("isBelowThreshold:", arr1.every(isBelowThreshold)); //false
@@ -162,6 +164,8 @@
 // const arr1 = [10, 20, 30, 40, 50, 60];
 // console.log("isBelowThreshold:", arr1.some(isBelowThreshold)); //true
 
+
+/*The flat() method creates a new array with all sub - array elements concatenated  into it recursively up to the specified depth.*/
 // let a=[0,1,2,[[[3,4]]]];
 // let flata=a.flat();
 // console.log("flata:", flata); //[0,1,2,[[3,4]]];
